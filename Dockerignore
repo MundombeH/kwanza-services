@@ -1,0 +1,16 @@
+.git
+.gitignore
+
+.idea
+.vscode
+
+target
+build
+
+.env
+.env.*
+!.env.example
+
+*.log
+
+.DS_Store
