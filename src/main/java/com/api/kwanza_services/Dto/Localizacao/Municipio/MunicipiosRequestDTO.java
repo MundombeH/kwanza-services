@@ -1,0 +1,24 @@
+package com.api.kwanza_services.Dto.Localizacao.Municipio;
+
+import java.util.UUID;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+@AllArgsConstructor
+public class MunicipiosRequestDTO {
+
+
+
+    @NotBlank
+    @NotNull
+    private String descricao;
+
+    @NotNull
+    private UUID provinciaId;
+}

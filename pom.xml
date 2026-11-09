@@ -254,6 +254,9 @@
 						</configuration>
 					</execution>
 				</executions>
+				<configuration>
+					<release>25</release>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
